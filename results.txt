@@ -1,0 +1,23 @@
+2017-06-12 14:02:08 [INFO] 
+==============================================================================
+* Script Name:              java.lang.Thread
+* Start Time:               Jun 12, 2017 2:02:08 PM
+* Elapsed Time:             00:00:00:000
+* Test Client:              IBM494-PC08X4U3/169.254.168.83 (9.32.91.134)
+* Test Client OS:           Windows 7 7 (6.1)
+* Test Client Java:         Oracle Corporation 1.8.0_73
+* Test Client Java Home:    C:\Program Files\Java\jdk1.8.0_73\jre
+* Log Directory:            /
+==============================================================================
+
+2017-06-12 14:02:08 [INFO]  Initializing WebBrowser
+2017-06-12 14:02:12 [INFO]  Setting Browser to: Google Chrome
+2017-06-12 14:02:12 [INFO]  BROWSERNAME = 'chrome'
+2017-06-12 14:02:14 [INFO]  [TEST START] com.ibm.automation.wea.conversation.ui.testcases.deploy.SlackChat.TestSlackChat()
+2017-06-12 14:02:14 [INFO]  SlackPage.getEmailTextField().setText([convow@us.ibm.com]) on By.cssSelector: #email
+2017-06-12 14:02:14 [INFO]  SlackPage.getPasswordTextField().setText([C0nv0Wh1skB0t]) on By.cssSelector: #password
+2017-06-12 14:02:15 [INFO]  SlackPage.getSignInButton().click() on By.cssSelector: #signin_btn
+2017-06-12 14:02:26 [INFO]  Question: @ibmwatson_bot test openwhisk callouts
+2017-06-12 14:02:29 [INFO]  PASS: Ask Question<td align=center><a href=06121402290335.png target=_blank><img src=06121402290335.png border=1 width=24, height=16></a></td>
+2017-06-12 14:02:29 [INFO]  Response: @convow You were able to make a callout to Openwhisk successfully. We got your message - " test openwhisk callouts"
+2017-06-12 14:02:29 [INFO]  PASS: Expected Response Found<td align=center><a href=06121402290656.png target=_blank><img src=06121402290656.png border=1 width=24, height=16></a></td>
